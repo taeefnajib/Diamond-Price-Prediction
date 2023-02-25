@@ -1,0 +1,4 @@
+pandas
+scikit-learn
+lightgbm
+dataclasses_json
