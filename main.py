@@ -9,11 +9,11 @@ from dataclasses import dataclass
 @dataclass_json
 @dataclass 
 class Hyperparameters(object):
-    filepath: str = "train.csv",
-    test_size: float = 0.15,
-    random_state: int = 786,
-    num_leaves: int = 10,
-    learnnig_rate: float = 0.05,
+    filepath: str = "train.csv"
+    test_size: float = 0.15
+    random_state: int = 786
+    num_leaves: int = 10
+    learnnig_rate: float = 0.05
 
 
 hp = Hyperparameters()
