@@ -2,3 +2,6 @@ pandas
 scikit-learn
 lightgbm
 dataclasses_json
+joblib
+numpy==1.24.1
+sidetrek==0.0.109
